@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="JoinCapViewController" customModule="QuartzDemos" customModuleProvider="target">
+            <connections>
+                <outlet property="joinCapView" destination="6pn-Rl-eHz" id="Ox2-8s-7bR"/>
+                <outlet property="view" destination="iN0-l3-epB" id="YGk-ue-xSa"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="CGLineCap Styles" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vJC-kI-o7l">
+                    <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                    <color key="textColor" red="0.17730978259999999" green="0.17730978259999999" blue="0.17730978259999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="CGLineJoin Styles" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yJE-XB-rAT">
+                    <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                    <color key="textColor" red="0.17730978259999999" green="0.17730978259999999" blue="0.17730978259999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="KFb-bo-dsa">
+                    <segments>
+                        <segment title="Butt"/>
+                        <segment title="Round"/>
+                        <segment title="Square"/>
+                    </segments>
+                    <connections>
+                        <action selector="updateLineCap:" destination="-1" eventType="valueChanged" id="ug9-aR-Uik"/>
+                    </connections>
+                </segmentedControl>
+                <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="HWx-fx-mVp">
+                    <segments>
+                        <segment title="Miter"/>
+                        <segment title="Round"/>
+                        <segment title="Bevel"/>
+                    </segments>
+                    <connections>
+                        <action selector="updateLineJon:" destination="-1" eventType="valueChanged" id="usz-ia-7fm"/>
+                    </connections>
+                </segmentedControl>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6pn-Rl-eHz" customClass="JoinCapView" customModule="QuartzDemos" customModuleProvider="target">
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="yJE-XB-rAT" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="2AM-ou-JQl"/>
+                <constraint firstAttribute="bottom" secondItem="yJE-XB-rAT" secondAttribute="bottom" constant="56" id="3ZK-c1-por"/>
+                <constraint firstItem="6pn-Rl-eHz" firstAttribute="top" secondItem="KFb-bo-dsa" secondAttribute="bottom" priority="999" constant="40" id="6EO-7j-Ch9"/>
+                <constraint firstItem="HWx-fx-mVp" firstAttribute="leading" secondItem="yJE-XB-rAT" secondAttribute="leading" id="FTf-0F-Pwj"/>
+                <constraint firstItem="vJC-kI-o7l" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="79" id="JNl-0T-wRa"/>
+                <constraint firstItem="HWx-fx-mVp" firstAttribute="top" secondItem="yJE-XB-rAT" secondAttribute="bottom" constant="8" symbolic="YES" id="Krb-U2-AhO"/>
+                <constraint firstItem="6pn-Rl-eHz" firstAttribute="trailing" secondItem="iN0-l3-epB" secondAttribute="trailingMargin" id="N9F-Ny-UMK"/>
+                <constraint firstItem="KFb-bo-dsa" firstAttribute="leading" secondItem="vJC-kI-o7l" secondAttribute="leading" id="bwK-cc-wBP"/>
+                <constraint firstItem="HWx-fx-mVp" firstAttribute="trailing" secondItem="iN0-l3-epB" secondAttribute="trailingMargin" id="cr1-Zp-0wQ"/>
+                <constraint firstItem="vJC-kI-o7l" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leadingMargin" id="gGb-Wk-1g0"/>
+                <constraint firstAttribute="trailing" secondItem="KFb-bo-dsa" secondAttribute="trailing" constant="16" id="gcr-Bd-0pZ"/>
+                <constraint firstItem="6pn-Rl-eHz" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leadingMargin" id="jkJ-RE-VaF"/>
+                <constraint firstItem="yJE-XB-rAT" firstAttribute="top" secondItem="6pn-Rl-eHz" secondAttribute="bottom" priority="999" constant="40" id="xLx-Nm-9Kl"/>
+                <constraint firstItem="HWx-fx-mVp" firstAttribute="leading" secondItem="yJE-XB-rAT" secondAttribute="trailing" constant="-151" id="yE3-bE-Sko"/>
+                <constraint firstItem="KFb-bo-dsa" firstAttribute="top" secondItem="vJC-kI-o7l" secondAttribute="bottom" constant="8" id="yaQ-iD-wiG"/>
+            </constraints>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+            <point key="canvasLocation" x="34.5" y="53.5"/>
+        </view>
+    </objects>
+</document>

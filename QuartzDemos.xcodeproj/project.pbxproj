@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C422CCBF1D260497001F6C66 /* LineDashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C422CCBE1D260497001F6C66 /* LineDashView.swift */; };
+		C422CCCD1D26105C001F6C66 /* AbstractGradientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C422CCCB1D26105C001F6C66 /* AbstractGradientViewController.swift */; };
+		C422CCCE1D26105C001F6C66 /* AbstractGradientView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C422CCCC1D26105C001F6C66 /* AbstractGradientView.xib */; };
+		C422CCD01D261565001F6C66 /* LinearGradientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C422CCCF1D261565001F6C66 /* LinearGradientViewController.swift */; };
+		C422CCD21D2615C9001F6C66 /* LinearGradientThreeColorHorizontalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C422CCD11D2615C9001F6C66 /* LinearGradientThreeColorHorizontalView.swift */; };
+		C422CCD41D2615D6001F6C66 /* LinearGradientThreeColorVerticalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C422CCD31D2615D6001F6C66 /* LinearGradientThreeColorVerticalView.swift */; };
+		C422CCD61D2615E6001F6C66 /* LinearGradientTwoColorVerticalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C422CCD51D2615E6001F6C66 /* LinearGradientTwoColorVerticalView.swift */; };
+		C422CCDA1D2622E3001F6C66 /* FlowerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C422CCD91D2622E3001F6C66 /* FlowerView.swift */; };
+		C42C6C2C1D23622A0019ED66 /* SwiftView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42C6C2B1D23622A0019ED66 /* SwiftView.swift */; };
+		C471B2ED1D28C403009E6267 /* PDFView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C471B2EC1D28C403009E6267 /* PDFView.swift */; };
+		C471B2EF1D28C747009E6267 /* cover-sheet.pdf in Resources */ = {isa = PBXBuildFile; fileRef = C471B2EE1D28C747009E6267 /* cover-sheet.pdf */; };
+		C47FB2871D2563A8008BFEE7 /* HeartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47FB2861D2563A8008BFEE7 /* HeartView.swift */; };
+		C48025DC1D2858BA00E4A2B7 /* RadialGradientBurstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48025DB1D2858BA00E4A2B7 /* RadialGradientBurstView.swift */; };
+		C48025DE1D2858CA00E4A2B7 /* RadialGradientShapesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48025DD1D2858CA00E4A2B7 /* RadialGradientShapesView.swift */; };
+		C48025E01D2858DB00E4A2B7 /* RadialGradientSphereView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48025DF1D2858DB00E4A2B7 /* RadialGradientSphereView.swift */; };
+		C48025E21D285B3C00E4A2B7 /* RadialGradientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48025E11D285B3C00E4A2B7 /* RadialGradientViewController.swift */; };
+		C48025E61D2867FF00E4A2B7 /* BeatlesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48025E51D2867FF00E4A2B7 /* BeatlesView.swift */; };
+		C4910E321D1358A6003F1D8B /* HelloQuartzViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4910E311D1358A6003F1D8B /* HelloQuartzViewController.swift */; };
+		C4910E361D1358E1003F1D8B /* HelloQuartzView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4910E351D1358E1003F1D8B /* HelloQuartzView.swift */; };
+		C4910E3F1D13622A003F1D8B /* SimpleShapesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4910E3E1D13622A003F1D8B /* SimpleShapesView.swift */; };
+		C4910E431D136A52003F1D8B /* SimpleShapesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4910E421D136A52003F1D8B /* SimpleShapesViewController.swift */; };
+		C4910E451D136A8C003F1D8B /* SimpleShapesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4910E441D136A8C003F1D8B /* SimpleShapesView.xib */; };
+		C4910E671D136C64003F1D8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4910E661D136C64003F1D8B /* LaunchScreen.storyboard */; };
+		C4910E9D1D137FF2003F1D8B /* CGContextExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4910E9C1D137FF2003F1D8B /* CGContextExtensions.swift */; };
+		C4910EA31D138453003F1D8B /* JoinCapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4910EA21D138453003F1D8B /* JoinCapViewController.swift */; };
+		C4910EA51D138464003F1D8B /* JoinCapView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4910EA41D138464003F1D8B /* JoinCapView.xib */; };
+		C4910EA71D13848B003F1D8B /* JoinCapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4910EA61D13848B003F1D8B /* JoinCapView.swift */; };
+		C4910EA91D138E3F003F1D8B /* GraphPaperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4910EA81D138E3F003F1D8B /* GraphPaperView.swift */; };
+		C4AC59D11D25B5B200A63D76 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AC59D01D25B5B200A63D76 /* BaseView.swift */; };
+		C4AC59D31D25BD9800A63D76 /* RainbowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AC59D21D25BD9800A63D76 /* RainbowView.swift */; };
+		C4AC59D51D25C62E00A63D76 /* SmileyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AC59D41D25C62E00A63D76 /* SmileyView.swift */; };
+		C4AC59D71D25CF8300A63D76 /* CharlieBrownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AC59D61D25CF8300A63D76 /* CharlieBrownView.swift */; };
+		C4CCCA831D26293600BF17FD /* FlippedPathsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CCCA821D26293600BF17FD /* FlippedPathsView.swift */; };
+		C4DF2E401D123A6E005F7AEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DF2E3F1D123A6E005F7AEA /* AppDelegate.swift */; };
+		C4DF2E421D123A6E005F7AEA /* QuartzViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DF2E411D123A6E005F7AEA /* QuartzViewController.swift */; };
+		C4DF2E471D123A6E005F7AEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4DF2E461D123A6E005F7AEA /* Assets.xcassets */; };
+		C4DF2E521D123AE4005F7AEA /* QuartzDemosTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DF2E511D123AE4005F7AEA /* QuartzDemosTableViewController.swift */; };
+		C4DF2E541D123B8C005F7AEA /* QuartzDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DF2E531D123B8C005F7AEA /* QuartzDemo.swift */; };
+		C4DF2E561D123BF7005F7AEA /* QuartzDemos.plist in Resources */ = {isa = PBXBuildFile; fileRef = C4DF2E551D123BF7005F7AEA /* QuartzDemos.plist */; };
+		C4DFC68F1D28B06700BB2BDB /* AppleMaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DFC68E1D28B06700BB2BDB /* AppleMaskView.swift */; };
+		C4DFC6911D28B6D700BB2BDB /* CGImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DFC6901D28B6D700BB2BDB /* CGImageExtensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C422CCBE1D260497001F6C66 /* LineDashView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineDashView.swift; sourceTree = "<group>"; };
+		C422CCCB1D26105C001F6C66 /* AbstractGradientViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbstractGradientViewController.swift; sourceTree = "<group>"; };
+		C422CCCC1D26105C001F6C66 /* AbstractGradientView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AbstractGradientView.xib; sourceTree = "<group>"; };
+		C422CCCF1D261565001F6C66 /* LinearGradientViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinearGradientViewController.swift; sourceTree = "<group>"; };
+		C422CCD11D2615C9001F6C66 /* LinearGradientThreeColorHorizontalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinearGradientThreeColorHorizontalView.swift; sourceTree = "<group>"; };
+		C422CCD31D2615D6001F6C66 /* LinearGradientThreeColorVerticalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinearGradientThreeColorVerticalView.swift; sourceTree = "<group>"; };
+		C422CCD51D2615E6001F6C66 /* LinearGradientTwoColorVerticalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinearGradientTwoColorVerticalView.swift; sourceTree = "<group>"; };
+		C422CCD91D2622E3001F6C66 /* FlowerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlowerView.swift; sourceTree = "<group>"; };
+		C42C6C2B1D23622A0019ED66 /* SwiftView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftView.swift; sourceTree = "<group>"; };
+		C471B2EC1D28C403009E6267 /* PDFView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFView.swift; sourceTree = "<group>"; };
+		C471B2EE1D28C747009E6267 /* cover-sheet.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "cover-sheet.pdf"; sourceTree = "<group>"; };
+		C47FB2861D2563A8008BFEE7 /* HeartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeartView.swift; sourceTree = "<group>"; };
+		C48025DB1D2858BA00E4A2B7 /* RadialGradientBurstView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadialGradientBurstView.swift; sourceTree = "<group>"; };
+		C48025DD1D2858CA00E4A2B7 /* RadialGradientShapesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadialGradientShapesView.swift; sourceTree = "<group>"; };
+		C48025DF1D2858DB00E4A2B7 /* RadialGradientSphereView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadialGradientSphereView.swift; sourceTree = "<group>"; };
+		C48025E11D285B3C00E4A2B7 /* RadialGradientViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadialGradientViewController.swift; sourceTree = "<group>"; };
+		C48025E51D2867FF00E4A2B7 /* BeatlesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeatlesView.swift; sourceTree = "<group>"; };
+		C4910E311D1358A6003F1D8B /* HelloQuartzViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelloQuartzViewController.swift; sourceTree = "<group>"; };
+		C4910E351D1358E1003F1D8B /* HelloQuartzView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelloQuartzView.swift; sourceTree = "<group>"; };
+		C4910E3E1D13622A003F1D8B /* SimpleShapesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleShapesView.swift; sourceTree = "<group>"; };
+		C4910E421D136A52003F1D8B /* SimpleShapesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleShapesViewController.swift; sourceTree = "<group>"; };
+		C4910E441D136A8C003F1D8B /* SimpleShapesView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SimpleShapesView.xib; sourceTree = "<group>"; };
+		C4910E661D136C64003F1D8B /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C4910E9C1D137FF2003F1D8B /* CGContextExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGContextExtensions.swift; sourceTree = "<group>"; };
+		C4910EA21D138453003F1D8B /* JoinCapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JoinCapViewController.swift; sourceTree = "<group>"; };
+		C4910EA41D138464003F1D8B /* JoinCapView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JoinCapView.xib; sourceTree = "<group>"; };
+		C4910EA61D13848B003F1D8B /* JoinCapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JoinCapView.swift; sourceTree = "<group>"; };
+		C4910EA81D138E3F003F1D8B /* GraphPaperView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphPaperView.swift; sourceTree = "<group>"; };
+		C4AC59D01D25B5B200A63D76 /* BaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		C4AC59D21D25BD9800A63D76 /* RainbowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RainbowView.swift; sourceTree = "<group>"; };
+		C4AC59D41D25C62E00A63D76 /* SmileyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmileyView.swift; sourceTree = "<group>"; };
+		C4AC59D61D25CF8300A63D76 /* CharlieBrownView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharlieBrownView.swift; sourceTree = "<group>"; };
+		C4CCCA821D26293600BF17FD /* FlippedPathsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlippedPathsView.swift; sourceTree = "<group>"; };
+		C4DF2E3C1D123A6E005F7AEA /* QuartzDemos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuartzDemos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4DF2E3F1D123A6E005F7AEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C4DF2E411D123A6E005F7AEA /* QuartzViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuartzViewController.swift; sourceTree = "<group>"; };
+		C4DF2E461D123A6E005F7AEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C4DF2E4B1D123A6E005F7AEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4DF2E511D123AE4005F7AEA /* QuartzDemosTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuartzDemosTableViewController.swift; sourceTree = "<group>"; };
+		C4DF2E531D123B8C005F7AEA /* QuartzDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuartzDemo.swift; sourceTree = "<group>"; };
+		C4DF2E551D123BF7005F7AEA /* QuartzDemos.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = QuartzDemos.plist; sourceTree = "<group>"; };
+		C4DFC68E1D28B06700BB2BDB /* AppleMaskView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppleMaskView.swift; sourceTree = "<group>"; };
+		C4DFC6901D28B6D700BB2BDB /* CGImageExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGImageExtensions.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C4DF2E391D123A6E005F7AEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C422CCC01D260EFD001F6C66 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C42C6C2B1D23622A0019ED66 /* SwiftView.swift */,
+				C47FB2861D2563A8008BFEE7 /* HeartView.swift */,
+				C4AC59D21D25BD9800A63D76 /* RainbowView.swift */,
+				C4AC59D41D25C62E00A63D76 /* SmileyView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		C422CCC11D260F1F001F6C66 /* Gradients */ = {
+			isa = PBXGroup;
+			children = (
+				C422CCC21D260F2F001F6C66 /* Controllers */,
+				C422CCC31D260F45001F6C66 /* Resources */,
+				C422CCC41D260F4D001F6C66 /* Views */,
+			);
+			name = Gradients;
+			sourceTree = "<group>";
+		};
+		C422CCC21D260F2F001F6C66 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C422CCCB1D26105C001F6C66 /* AbstractGradientViewController.swift */,
+				C422CCCF1D261565001F6C66 /* LinearGradientViewController.swift */,
+				C48025E11D285B3C00E4A2B7 /* RadialGradientViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		C422CCC31D260F45001F6C66 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C422CCCC1D26105C001F6C66 /* AbstractGradientView.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C422CCC41D260F4D001F6C66 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C422CCD11D2615C9001F6C66 /* LinearGradientThreeColorHorizontalView.swift */,
+				C422CCD31D2615D6001F6C66 /* LinearGradientThreeColorVerticalView.swift */,
+				C422CCD51D2615E6001F6C66 /* LinearGradientTwoColorVerticalView.swift */,
+				C48025DB1D2858BA00E4A2B7 /* RadialGradientBurstView.swift */,
+				C48025DD1D2858CA00E4A2B7 /* RadialGradientShapesView.swift */,
+				C48025DF1D2858DB00E4A2B7 /* RadialGradientSphereView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		C422CCD71D2622B6001F6C66 /* Transforms */ = {
+			isa = PBXGroup;
+			children = (
+				C422CCD81D2622C6001F6C66 /* Views */,
+			);
+			name = Transforms;
+			sourceTree = "<group>";
+		};
+		C422CCD81D2622C6001F6C66 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C422CCD91D2622E3001F6C66 /* FlowerView.swift */,
+				C4CCCA821D26293600BF17FD /* FlippedPathsView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		C42C6C2A1D23621B0019ED66 /* Paths */ = {
+			isa = PBXGroup;
+			children = (
+				C422CCC01D260EFD001F6C66 /* Views */,
+			);
+			name = Paths;
+			sourceTree = "<group>";
+		};
+		C471B2E71D28C3C7009E6267 /* PDF */ = {
+			isa = PBXGroup;
+			children = (
+				C471B2EB1D28C3F7009E6267 /* Views */,
+				C471B2E81D28C3E8009E6267 /* Resources */,
+			);
+			name = PDF;
+			sourceTree = "<group>";
+		};
+		C471B2E81D28C3E8009E6267 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C471B2EE1D28C747009E6267 /* cover-sheet.pdf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C471B2EB1D28C3F7009E6267 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C471B2EC1D28C403009E6267 /* PDFView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		C48025E31D2867C600E4A2B7 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				C48025E41D2867DF00E4A2B7 /* Views */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		C48025E41D2867DF00E4A2B7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C48025E51D2867FF00E4A2B7 /* BeatlesView.swift */,
+				C4DFC68E1D28B06700BB2BDB /* AppleMaskView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		C4910E2E1D135864003F1D8B /* Start */ = {
+			isa = PBXGroup;
+			children = (
+				C4910E2F1D135870003F1D8B /* Controllers */,
+				C4910E371D136096003F1D8B /* Resources */,
+				C4910E301D13588A003F1D8B /* Views */,
+			);
+			name = Start;
+			sourceTree = "<group>";
+		};
+		C4910E2F1D135870003F1D8B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C4910E311D1358A6003F1D8B /* HelloQuartzViewController.swift */,
+				C4910E421D136A52003F1D8B /* SimpleShapesViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		C4910E301D13588A003F1D8B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C4910E351D1358E1003F1D8B /* HelloQuartzView.swift */,
+				C4910E3E1D13622A003F1D8B /* SimpleShapesView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		C4910E371D136096003F1D8B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C4910E441D136A8C003F1D8B /* SimpleShapesView.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C4910E9E1D138402003F1D8B /* Lines */ = {
+			isa = PBXGroup;
+			children = (
+				C4910E9F1D13840D003F1D8B /* Controllers */,
+				C4910EA01D138414003F1D8B /* Resources */,
+				C4910EA11D13841A003F1D8B /* Views */,
+			);
+			name = Lines;
+			sourceTree = "<group>";
+		};
+		C4910E9F1D13840D003F1D8B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C4910EA21D138453003F1D8B /* JoinCapViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		C4910EA01D138414003F1D8B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C4910EA41D138464003F1D8B /* JoinCapView.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C4910EA11D13841A003F1D8B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C4910EA61D13848B003F1D8B /* JoinCapView.swift */,
+				C4910EA81D138E3F003F1D8B /* GraphPaperView.swift */,
+				C4AC59D61D25CF8300A63D76 /* CharlieBrownView.swift */,
+				C422CCBE1D260497001F6C66 /* LineDashView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		C4DF2E331D123A6E005F7AEA = {
+			isa = PBXGroup;
+			children = (
+				C4DF2E3E1D123A6E005F7AEA /* QuartzDemos */,
+				C4DF2E3D1D123A6E005F7AEA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C4DF2E3D1D123A6E005F7AEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4DF2E3C1D123A6E005F7AEA /* QuartzDemos.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C4DF2E3E1D123A6E005F7AEA /* QuartzDemos */ = {
+			isa = PBXGroup;
+			children = (
+				C4910E2E1D135864003F1D8B /* Start */,
+				C4910E9E1D138402003F1D8B /* Lines */,
+				C42C6C2A1D23621B0019ED66 /* Paths */,
+				C422CCD71D2622B6001F6C66 /* Transforms */,
+				C422CCC11D260F1F001F6C66 /* Gradients */,
+				C48025E31D2867C600E4A2B7 /* Images */,
+				C471B2E71D28C3C7009E6267 /* PDF */,
+				C4DF2E3F1D123A6E005F7AEA /* AppDelegate.swift */,
+				C4DF2E411D123A6E005F7AEA /* QuartzViewController.swift */,
+				C4910E661D136C64003F1D8B /* LaunchScreen.storyboard */,
+				C4DF2E461D123A6E005F7AEA /* Assets.xcassets */,
+				C4DF2E4B1D123A6E005F7AEA /* Info.plist */,
+				C4DF2E551D123BF7005F7AEA /* QuartzDemos.plist */,
+				C4DF2E511D123AE4005F7AEA /* QuartzDemosTableViewController.swift */,
+				C4DF2E531D123B8C005F7AEA /* QuartzDemo.swift */,
+				C4910E9C1D137FF2003F1D8B /* CGContextExtensions.swift */,
+				C4DFC6901D28B6D700BB2BDB /* CGImageExtensions.swift */,
+				C4AC59D01D25B5B200A63D76 /* BaseView.swift */,
+			);
+			path = QuartzDemos;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C4DF2E3B1D123A6E005F7AEA /* QuartzDemos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4DF2E4E1D123A6E005F7AEA /* Build configuration list for PBXNativeTarget "QuartzDemos" */;
+			buildPhases = (
+				C4DF2E381D123A6E005F7AEA /* Sources */,
+				C4DF2E391D123A6E005F7AEA /* Frameworks */,
+				C4DF2E3A1D123A6E005F7AEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuartzDemos;
+			productName = QuartzDemos;
+			productReference = C4DF2E3C1D123A6E005F7AEA /* QuartzDemos.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C4DF2E341D123A6E005F7AEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "TapHarmonic, LLC";
+				TargetAttributes = {
+					C4DF2E3B1D123A6E005F7AEA = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = GV36U76CUM;
+						DevelopmentTeamName = "TapHarmonic, LLC";
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C4DF2E371D123A6E005F7AEA /* Build configuration list for PBXProject "QuartzDemos" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C4DF2E331D123A6E005F7AEA;
+			productRefGroup = C4DF2E3D1D123A6E005F7AEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4DF2E3B1D123A6E005F7AEA /* QuartzDemos */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C4DF2E3A1D123A6E005F7AEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C471B2EF1D28C747009E6267 /* cover-sheet.pdf in Resources */,
+				C4DF2E471D123A6E005F7AEA /* Assets.xcassets in Resources */,
+				C4DF2E561D123BF7005F7AEA /* QuartzDemos.plist in Resources */,
+				C4910EA51D138464003F1D8B /* JoinCapView.xib in Resources */,
+				C422CCCE1D26105C001F6C66 /* AbstractGradientView.xib in Resources */,
+				C4910E671D136C64003F1D8B /* LaunchScreen.storyboard in Resources */,
+				C4910E451D136A8C003F1D8B /* SimpleShapesView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C4DF2E381D123A6E005F7AEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4AC59D71D25CF8300A63D76 /* CharlieBrownView.swift in Sources */,
+				C48025E21D285B3C00E4A2B7 /* RadialGradientViewController.swift in Sources */,
+				C4910E431D136A52003F1D8B /* SimpleShapesViewController.swift in Sources */,
+				C4910EA31D138453003F1D8B /* JoinCapViewController.swift in Sources */,
+				C4DF2E521D123AE4005F7AEA /* QuartzDemosTableViewController.swift in Sources */,
+				C4910E3F1D13622A003F1D8B /* SimpleShapesView.swift in Sources */,
+				C4910EA91D138E3F003F1D8B /* GraphPaperView.swift in Sources */,
+				C4DFC68F1D28B06700BB2BDB /* AppleMaskView.swift in Sources */,
+				C422CCBF1D260497001F6C66 /* LineDashView.swift in Sources */,
+				C48025E01D2858DB00E4A2B7 /* RadialGradientSphereView.swift in Sources */,
+				C42C6C2C1D23622A0019ED66 /* SwiftView.swift in Sources */,
+				C4910EA71D13848B003F1D8B /* JoinCapView.swift in Sources */,
+				C4DF2E421D123A6E005F7AEA /* QuartzViewController.swift in Sources */,
+				C4DF2E401D123A6E005F7AEA /* AppDelegate.swift in Sources */,
+				C4AC59D31D25BD9800A63D76 /* RainbowView.swift in Sources */,
+				C48025E61D2867FF00E4A2B7 /* BeatlesView.swift in Sources */,
+				C4DFC6911D28B6D700BB2BDB /* CGImageExtensions.swift in Sources */,
+				C4CCCA831D26293600BF17FD /* FlippedPathsView.swift in Sources */,
+				C422CCCD1D26105C001F6C66 /* AbstractGradientViewController.swift in Sources */,
+				C47FB2871D2563A8008BFEE7 /* HeartView.swift in Sources */,
+				C422CCD41D2615D6001F6C66 /* LinearGradientThreeColorVerticalView.swift in Sources */,
+				C4910E361D1358E1003F1D8B /* HelloQuartzView.swift in Sources */,
+				C4AC59D51D25C62E00A63D76 /* SmileyView.swift in Sources */,
+				C4910E321D1358A6003F1D8B /* HelloQuartzViewController.swift in Sources */,
+				C48025DE1D2858CA00E4A2B7 /* RadialGradientShapesView.swift in Sources */,
+				C471B2ED1D28C403009E6267 /* PDFView.swift in Sources */,
+				C422CCD61D2615E6001F6C66 /* LinearGradientTwoColorVerticalView.swift in Sources */,
+				C4910E9D1D137FF2003F1D8B /* CGContextExtensions.swift in Sources */,
+				C4DF2E541D123B8C005F7AEA /* QuartzDemo.swift in Sources */,
+				C422CCD01D261565001F6C66 /* LinearGradientViewController.swift in Sources */,
+				C422CCDA1D2622E3001F6C66 /* FlowerView.swift in Sources */,
+				C422CCD21D2615C9001F6C66 /* LinearGradientThreeColorHorizontalView.swift in Sources */,
+				C48025DC1D2858BA00E4A2B7 /* RadialGradientBurstView.swift in Sources */,
+				C4AC59D11D25B5B200A63D76 /* BaseView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C4DF2E4C1D123A6E005F7AEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C4DF2E4D1D123A6E005F7AEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C4DF2E4F1D123A6E005F7AEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QuartzDemos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tapharmonic.QuartzDemos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C4DF2E501D123A6E005F7AEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QuartzDemos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tapharmonic.QuartzDemos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C4DF2E371D123A6E005F7AEA /* Build configuration list for PBXProject "QuartzDemos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4DF2E4C1D123A6E005F7AEA /* Debug */,
+				C4DF2E4D1D123A6E005F7AEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4DF2E4E1D123A6E005F7AEA /* Build configuration list for PBXNativeTarget "QuartzDemos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4DF2E4F1D123A6E005F7AEA /* Debug */,
+				C4DF2E501D123A6E005F7AEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C4DF2E341D123A6E005F7AEA /* Project object */;
+}

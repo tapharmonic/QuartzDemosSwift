@@ -90,7 +90,6 @@ class QuartzDemosTableViewController: UITableViewController {
 
         let controller: UIViewController
         if let clazz = demo.controllerClass as? NSObject.Type {
-            print(clazz)
             controller = clazz.init() as! UIViewController
         } else {
             controller = QuartzViewController(viewClass: demo.viewClass!)

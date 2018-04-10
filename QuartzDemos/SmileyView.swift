@@ -32,7 +32,7 @@ class SmileyView: BaseView {
         guard let context = UIGraphicsGetCurrentContext() else { return }
 
         // Deep yellow color
-        let fillColor = UIColor(colorLiteralRed: 1.0, green: 0.837, blue: 0.0, alpha: 1.0)
+        let fillColor = UIColor(displayP3Red: 1.0, green: 0.837, blue: 0.0, alpha: 1.0)
         context.setFillColor(fillColor.cgColor)
         context.fill(rect)
 

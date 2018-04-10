@@ -46,11 +46,11 @@ class FlowerView: BaseView {
 
         // Setup colors
 
-        let stemColor = UIColor(colorLiteralRed: 0.017, green: 0.393, blue: 0.033, alpha: 1.0)
-        let discFillColor = UIColor(colorLiteralRed: 0.996, green: 0.781, blue: 0.0, alpha: 1.0)
-        let discStrokeColor = UIColor(colorLiteralRed: 0.833, green: 0.653, blue: 0.0, alpha: 1.0)
+        let stemColor = UIColor(displayP3Red: 0.017, green: 0.393, blue: 0.033, alpha: 1.0)
+        let discFillColor = UIColor(displayP3Red: 0.996, green: 0.781, blue: 0.0, alpha: 1.0)
+        let discStrokeColor = UIColor(displayP3Red: 0.833, green: 0.653, blue: 0.0, alpha: 1.0)
         let petalFillColor = UIColor.white
-        let petalStrokeColor = UIColor(colorLiteralRed: 0.577, green: 0.577, blue: 0.577, alpha: 1.0)
+        let petalStrokeColor = UIColor(displayP3Red: 0.577, green: 0.577, blue: 0.577, alpha: 1.0)
 
 
         // Set line styles for strokes

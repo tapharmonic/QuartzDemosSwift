@@ -32,9 +32,8 @@ class CharlieBrownView: BaseView {
     override func draw(_ rect: CGRect) {
 
         guard let context = UIGraphicsGetCurrentContext() else { return }
-
         // Fill background with Yellow
-        let fillColor = UIColor(colorLiteralRed: 0.961, green: 0.704, blue: 0.159, alpha: 1.0)
+        let fillColor = UIColor(displayP3Red: 0.961, green: 0.704, blue: 0.159, alpha: 1.0)
         context.setFillColor(fillColor.cgColor)
         context.fill(rect)
 

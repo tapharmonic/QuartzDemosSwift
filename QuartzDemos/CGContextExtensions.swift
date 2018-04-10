@@ -83,8 +83,8 @@ extension CGContext {
     func drawBlueSkyGradient(in rect: CGRect) {
 
         let locations: [CGFloat] = [0.0, 1.0]
-        let lightBlueColor = UIColor(colorLiteralRed: 0.942, green: 0.970, blue: 1.0, alpha: 1.0)
-        let darkerBlueColor = UIColor(colorLiteralRed: 0.498, green: 0.735, blue: 1.0, alpha: 1.0)
+        let lightBlueColor = UIColor(displayP3Red: 0.942, green: 0.970, blue: 1.0, alpha: 1.0)
+        let darkerBlueColor = UIColor(displayP3Red: 0.498, green: 0.735, blue: 1.0, alpha: 1.0)
 
         let colorSpace = CGColorSpaceCreateDeviceRGB()
 

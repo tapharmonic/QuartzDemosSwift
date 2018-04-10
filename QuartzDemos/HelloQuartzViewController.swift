@@ -33,7 +33,7 @@ class HelloQuartzViewController: UIViewController {
         view.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(repaintView)))
     }
 
-    func repaintView() {
+    @objc func repaintView() {
         view.setNeedsDisplay()
     }
 }

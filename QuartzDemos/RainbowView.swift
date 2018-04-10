@@ -36,12 +36,12 @@ class RainbowView: UIView {
         context.drawBlueSkyGradient(in: rect)
 
         let colors = [
-            UIColor(colorLiteralRed: 1.0,   green: 0.25,  blue: 0.25,  alpha: 1.0), // red
-            UIColor(colorLiteralRed: 1.0,   green: 0.708, blue: 0.014, alpha: 1.0), // orange
-            UIColor(colorLiteralRed: 1.0,   green: 0.997, blue: 0.369, alpha: 1.0), // yellow
-            UIColor(colorLiteralRed: 0.381, green: 1.0,   blue: 0.369, alpha: 1.0), // green
-            UIColor(colorLiteralRed: 0.374, green: 0.369, blue: 1.0,   alpha: 1.0), // blue
-            UIColor(colorLiteralRed: 0.514, green: 0.283, blue: 0.768, alpha: 1.0), // purple
+            UIColor(displayP3Red: 1.0,   green: 0.25,  blue: 0.25,  alpha: 1.0), // red
+            UIColor(displayP3Red: 1.0,   green: 0.708, blue: 0.014, alpha: 1.0), // orange
+            UIColor(displayP3Red: 1.0,   green: 0.997, blue: 0.369, alpha: 1.0), // yellow
+            UIColor(displayP3Red: 0.381, green: 1.0,   blue: 0.369, alpha: 1.0), // green
+            UIColor(displayP3Red: 0.374, green: 0.369, blue: 1.0,   alpha: 1.0), // blue
+            UIColor(displayP3Red: 0.514, green: 0.283, blue: 0.768, alpha: 1.0), // purple
         ]
 
         var radius = rect.width * 1.25

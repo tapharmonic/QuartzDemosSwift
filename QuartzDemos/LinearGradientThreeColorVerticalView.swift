@@ -34,9 +34,9 @@ class LinearGradientThreeColorVerticalView: UIView {
 
         let locations: [CGFloat] = [0.0, 0.5, 1.0]
 
-        let startColor = UIColor(colorLiteralRed: 0.2, green: 1.0, blue: 0.341, alpha: 1)
-        let middleColor = UIColor(colorLiteralRed: 0.24, green: 0.62, blue: 1.0, alpha: 1)
-        let endColor = UIColor(colorLiteralRed: 0.863, green: 0.02, blue: 1.0, alpha: 1)
+        let startColor = UIColor(displayP3Red: 0.2, green: 1.0, blue: 0.341, alpha: 1)
+        let middleColor = UIColor(displayP3Red: 0.24, green: 0.62, blue: 1.0, alpha: 1)
+        let endColor = UIColor(displayP3Red: 0.863, green: 0.02, blue: 1.0, alpha: 1)
 
         let colors = [startColor.cgColor, middleColor.cgColor, endColor.cgColor]
 

@@ -44,7 +44,7 @@ class HeartView: UIView {
         context.scale(width: heartWidth, to: 0.65, of: bounds)
 
         let fillColor = UIColor.red
-        let strokeColor = UIColor(colorLiteralRed: 0.8, green: 0, blue: 0, alpha: 1)
+        let strokeColor = UIColor(displayP3Red: 0.8, green: 0, blue: 0, alpha: 1)
 
         context.setLineWidth(3.0)
         context.setLineJoin(.round)

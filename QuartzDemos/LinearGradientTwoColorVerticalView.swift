@@ -31,8 +31,8 @@ class LinearGradientTwoColorVerticalView: UIView {
     override func draw(_ rect: CGRect) {
         guard let context = UIGraphicsGetCurrentContext() else { return }
 
-        let startColor = UIColor(colorLiteralRed: 1.0, green: 0.969, blue: 0.165, alpha: 1.0)
-        let endColor = UIColor(colorLiteralRed: 1.0, green: 0.4, blue: 0.165, alpha: 1.0)
+        let startColor = UIColor(displayP3Red: 1.0, green: 0.969, blue: 0.165, alpha: 1.0)
+        let endColor = UIColor(displayP3Red: 1.0, green: 0.4, blue: 0.165, alpha: 1.0)
 
         let colors = [startColor.cgColor, endColor.cgColor]
         let locations: [CGFloat] = [0, 1]

@@ -64,10 +64,10 @@ class LineDashView: BaseView {
         // Draw Text
         let topMargin: CGFloat = -30
         title.draw(at: CGPoint(x: margin, y: topMargin), withAttributes: [
-            NSAttributedStringKey.font : UIFont.boldSystemFont(ofSize: 15)
+            NSAttributedString.Key.font : UIFont.boldSystemFont(ofSize: 15)
         ])
         description.draw(at: CGPoint(x: margin + 50, y: topMargin), withAttributes: [
-            NSAttributedStringKey.font : UIFont.systemFont(ofSize: 15)
+            NSAttributedString.Key.font : UIFont.systemFont(ofSize: 15)
         ])
         // Draw Line
         context.move(to: CGPoint(x: margin, y: 0))
